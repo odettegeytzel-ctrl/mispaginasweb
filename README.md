@@ -23,6 +23,6 @@ npm run build
 
 En `src/data/siteData.js` reemplaza los valores `PEGAR_URL_AQUI` por las URLs de Vercel de cada demo y `PEGAR_NUMERO_AQUI` por el número de WhatsApp con código de país. No se incluyen datos de clientes, teléfonos o enlaces reales.
 
-## Formulario de contacto
+## Contacto
 
-El formulario no envía correos ni requiere servidor. Al enviarlo, se abre WhatsApp (`wa.me`) con los datos capturados ya escritos en el mensaje, listo para enviar al número configurado en `WHATSAPP_NUMBER` dentro de `src/data/siteData.js`.
+La seccion de contacto no tiene formulario ni requiere servidor: es un boton directo a WhatsApp (`wa.me`) con un mensaje inicial ya escrito. El numero se configura en `WHATSAPP_NUMBER` dentro de `src/data/siteData.js`.
