@@ -1,12 +1,12 @@
 // Sustituye estos valores cuando los proyectos estén publicados en Vercel.
 export const projectUrls = {
-  casaSazon: 'PEGAR_URL_AQUI',
-  auraStudio: 'PEGAR_URL_AQUI',
-  novaPack: 'PEGAR_URL_AQUI',
+  casaSazon: 'https://demo-restaurante-opal.vercel.app/',
+  auraStudio: 'https://estetica-orpin-ten.vercel.app/',
+  novaPack: 'https://empresa-ejemplo.vercel.app/',
 }
 
 // Escribe solo dígitos con código de país, por ejemplo: 5212220000000.
-export const WHATSAPP_NUMBER = 'PEGAR_NUMERO_AQUI'
+export const WHATSAPP_NUMBER = '522225589355'
 
 export const projects = [
   { id: 'casaSazon', name: 'Casa Sazón', category: 'Restaurante', description: 'Sitio web DEMO para un restaurante, con menú, galería, información del negocio y contacto.', accent: 'coral', url: projectUrls.casaSazon },
