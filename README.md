@@ -25,12 +25,4 @@ En `src/data/siteData.js` reemplaza los valores `PEGAR_URL_AQUI` por las URLs de
 
 ## Formulario de contacto
 
-El formulario usa una función de Vercel (`api/contact.js`) y Resend para enviar cada solicitud por correo. Antes de desplegar, agrega estas variables de entorno en Vercel:
-
-```text
-RESEND_API_KEY=re_...
-CONTACT_TO_EMAIL=tu-correo@ejemplo.com
-CONTACT_FROM_EMAIL=Desarrollo Web <contacto@tudominio.com>
-```
-
-`CONTACT_FROM_EMAIL` es opcional mientras usas el remitente de prueba de Resend. Para producción, verifica un dominio propio en Resend y utiliza una dirección de ese dominio. Nunca agregues la clave de Resend al repositorio ni a archivos de React.
+El formulario no envía correos ni requiere servidor. Al enviarlo, se abre WhatsApp (`wa.me`) con los datos capturados ya escritos en el mensaje, listo para enviar al número configurado en `WHATSAPP_NUMBER` dentro de `src/data/siteData.js`.
